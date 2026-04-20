@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+p {
+    margin: 0;
+}
+
+.projects-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-family: "Sansation", sans-serif;
+    margin-left: 20px;
+}
+
+.project {
+    border-bottom: 1px solid white;
+    padding: 10px;
+    padding-bottom: 30px;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.project:hover {
+    transform: scaleY(1.05);
+}
+
+.project-title {
+    font-size: 2rem;
+    padding: 15px 0;
+    color: aquamarine;
+}
+
+.project-subtitle {
+    font-size: 1.1rem;
+    padding: 10px 0;
+    color: rgb(230, 255, 226);
+}
+
+.project-details {}

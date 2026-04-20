@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.highlight-text {
+    position: relative;
+    left: 40%;
+}
+
+.home-text {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#text-1 {
+    color: grey;
+    font-size: 1rem;
+}
+
+#text-2 {
+    color: antiquewhite;
+    font-family: "Orbitron", sans-serif;
+    font-size: 2.5rem;
+
+}
+
+#text-3 {
+    color: aquamarine;
+
+    font-family: "Audiowide", sans-serif;
+    font-size: 2.4rem;
+}
